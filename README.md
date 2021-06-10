@@ -5,7 +5,7 @@
 npx create-react-app [Name]
 
 ## Folder structure
-
+```
 ├── src
 | ├── App.js
 | ├── app.styles.js
@@ -20,42 +20,45 @@ npx create-react-app [Name]
 ├── tailwind.config.js
 ├── README.md
 └── yarn.lock
+```
 
 ### `Install the dependencies`
 
-npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+```npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9```
+
 
 ### `Install twin.macro`
 
-npm i twin.macro
+```npm i twin.macro```
 
 ### `Install styled-components`
 
-npm install styled-components
+```npm install styled-components```
 
 ### `Install and configure CRACO`
 
-npm install @craco/craco
+```npm install @craco/craco```
 
 ### `Update the **package.json** file`
 
-"scripts": {
+```"scripts": {
      "start": "craco start",
      "build": "craco build",
      "test": "craco test",
       "eject": "react-scripts eject"
 }
+```
 
 
 ### `Configuring Tailwind CSS`
 
-npx tailwindcss init
+```npx tailwindcss init```
 
 or 
 
-[npx tailwind init tailwind.config.js --full]
+```[npx tailwind init tailwind.config.js --full]```
 
-[tailwind.config.js]
+```[tailwind.config.js]
    purge: [],
    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false, // or 'media' or 'class'
@@ -67,6 +70,7 @@ or
     },
     plugins: [],
   }
+  ```
 
 ### `Include Tailwind in your css .`
 
@@ -80,7 +84,7 @@ or
 
 ### Start ###
 
-npm run start 
+```npm run start``` 
 
 ### `Details how to setup`
 
